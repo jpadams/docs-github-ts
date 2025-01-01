@@ -1,7 +1,7 @@
 import { dag, object, func, GitRepository } from "@dagger.io/dagger"
 
 @object()
-class Account {
+export class Account {
   @func()
   username: string
 
@@ -31,7 +31,7 @@ export type Organization = {
 }
 
 @object()
-class Github {
+export class Github {
   @func()
   daggerOrganization(): Organization {
     const url = "https://github.com/dagger"

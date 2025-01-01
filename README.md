@@ -1,12 +1,12 @@
 ```
-Error logs:
+✔ connect 0.5s
+✔ load module 1.3s
 
-✘ .daggerOrganization: GithubOrganization! 2.7s
-could not find module entrypoint: class Github from import. Class should be exported to benefit fr
- all features.
-missing export in class Github at /src/src/index.ts:32:0 but it's used by the module.
-missing export in class Account at /src/src/index.ts:2:0 but it's used by the module.
+✔ github: Github! 0.0s
+✘ .daggerOrganization: GithubOrganization! 2.9s
 ! failed to collect IDs: failed to convert field "repositories": expected string, got map[string]interface {}
 
-Full trace at https://dagger.cloud/dagger/traces/75df68b392655e44b27b424e1341f3a4
+✔ parsing command line arguments 0.0s
+
+Full trace at https://dagger.cloud/dagger/traces/f1442696698d612d3bb02fc37f721e1a
 ```
